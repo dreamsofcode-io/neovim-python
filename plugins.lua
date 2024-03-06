@@ -50,7 +50,7 @@ local plugins = {
         "black",
         "debugpy",
         "mypy",
-        "ruff",
+        "ruff-lsp",
         "pyright",
       },
     },
