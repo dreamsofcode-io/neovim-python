@@ -1,5 +1,8 @@
 local plugins = {
   {
+    "nvim-neotest/nvim-nio",
+  },
+  {
     "rcarriga/nvim-dap-ui",
     dependencies = "mfussenegger/nvim-dap",
     config = function()
@@ -29,6 +32,7 @@ local plugins = {
     dependencies = {
       "mfussenegger/nvim-dap",
       "rcarriga/nvim-dap-ui",
+      "nvim-neotest/nvim-nio",
     },
     config = function(_, opts)
       local path = "~/.local/share/nvim/mason/packages/debugpy/venv/bin/python"
